@@ -1,0 +1,18 @@
+{
+  "author": "",
+  "dependencies": {
+    "bulma-addons": "^0.1.12",
+    "bulma-fluent": "^0.3.14",
+    "node-sass": "^4.9.4",
+    "node-sass-import": "^2.0.1"
+  },
+  "description": "",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "customize-colors-script",
+  "scripts": {
+    "build": "node-sass --output-style expanded customize-colors.sass customize_colors/bulma.css --importer node_modules/node-sass-import",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
